@@ -1,0 +1,37 @@
+User-agent: *
+Allow: /
+
+User-agent: Aboundex
+Disallow: /
+User-agent: 80legs
+Disallow: /
+User-agent: MJ12bot
+Disallow: /
+User-agent: AhrefsBot
+Disallow: /
+User-agent: SEOkicks-Robot
+Disallow: /
+User-agent: discobot
+Disallow: /
+User-agent: Blekkobot
+Disallow: /
+User-agent: BLEXBot
+Disallow: /
+User-agent: BackDoorBot
+Disallow: /
+User-agent: BackWeb
+Disallow: /
+User-agent: Bandit
+Disallow: /
+User-agent: BatchFTP
+Disallow: /
+User-agent: Bigfoot
+Disallow: /
+User-agent: BlackWidow
+Disallow: /
+User-agent: BlowFish
+Disallow: /
+User-agent: BotALot
+Disallow: /
+
+Sitemap: http://xobbba.ru/sitemap.xml

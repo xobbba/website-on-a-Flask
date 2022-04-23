@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block home %}
+Обновление факта
+{% endblock %}
+
+{% block body %}
+<div class="container mt-5 unselectable">
+    <h1>Обновление факта</h1>
+    <form method="post">
+      <input type="text" name="title_fact" id="title_fact" class="form-control" value="{{ fact.title_fact }}" placeholder="Введите название"><br>
+      <textarea name="intro_fact" id="intro_fact" cols="30" rows="10" class="form-control"  placeholder="Введите анонс">{{ fact.intro_fact }}</textarea>
+      <textarea name="text_fact" id="text_fact" cols="30" rows="10" class="form-control" placeholder="Введите основной текст">{{ fact.text_fact }}</textarea>
+      <input type="submit" class="btn btn-success" value="Обновить">
+    </form>
+</div>
+{% endblock %}

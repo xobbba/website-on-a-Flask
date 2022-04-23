@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block home %}
+SignIn
+{% endblock %}
+
+{% block body %}
+<div class="login-page">
+    <div class="register-form">
+        <div class="form">
+            <h3 style="color: white; margin-bottom: 5%">Выполните вход:</h3>
+            <div class="login-form">
+                <form method="post" action="signin">
+                    <input type="text" name="login" placeholder="login">
+                    <input type="password" name="password" placeholder="password">
+                    <button class="btn btn-info" type="submit">Вход</button>
+                </form>
+                {% with messages = get_flashed_messages() %}
+                    {% if messages %}
+                        <h3 style="color:red">{{ messages[-1] }}</h3>
+                    {% endif %}
+                {% endwith %}
+                <p class="message" style="color: white">Не зарегистрированы? <a href="/signup">Создайте новый профиль</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

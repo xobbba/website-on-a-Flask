@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block home %}
+Добавление факта
+{% endblock %}
+
+{% block body %}
+<div class="container">
+    <h1 style="color: #FFFFFF">Добавление факта</h1>
+    <form method="post">
+      <input type="text" name="title_fact" id="title_fact" class="form-control" placeholder="Введите название"><br>
+      <textarea name="intro_fact" id="intro_fact" cols="30" rows="10" class="form-control" placeholder="Введите анонс"></textarea>
+      <textarea name="text_fact" id="text_fact" cols="30" rows="10" class="form-control" placeholder="Введите основной текст"></textarea>
+      <input type="submit" class="btn btn-success" value="Опубликовать">
+    </form>
+</div>
+{% endblock %}

@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+		<!--	created with www.mysitemapgenerator.com	-->
+		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+	<loc>http://xobbba.ru/</loc>
+	<lastmod>2021-12-20T13:37:31+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://xobbba.ru/posts</loc>
+	<lastmod>2021-12-20T13:37:31+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://xobbba.ru/facts</loc>
+	<lastmod>2021-12-20T13:37:31+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://xobbba.ru/about</loc>
+	<lastmod>2021-12-20T13:37:31+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://xobbba.ru/signin</loc>
+	<lastmod>2021-12-20T13:37:31+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://xobbba.ru/signup</loc>
+	<lastmod>2021-12-20T13:37:31+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://xobbba.ru/vk.html</loc>
+	<lastmod>2021-12-20T13:37:31+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://xobbba.ru/posts/1</loc>
+	<lastmod>2021-12-20T13:37:32+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>http://xobbba.ru/facts/2</loc>
+	<lastmod>2021-12-20T13:37:34+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>http://xobbba.ru/facts/1</loc>
+	<lastmod>2021-12-20T13:37:34+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>http://xobbba.ru/facts/2/del</loc>
+	<lastmod>2021-12-20T13:37:37+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://xobbba.ru/facts/2/update</loc>
+	<lastmod>2021-12-20T13:37:37+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://xobbba.ru/facts/1/del</loc>
+	<lastmod>2021-12-20T13:37:37+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://xobbba.ru/facts/1/update</loc>
+	<lastmod>2021-12-20T13:37:37+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://xobbba.ru/posts/1/del</loc>
+	<lastmod>2021-12-20T13:37:37+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://xobbba.ru/posts/1/update</loc>
+	<lastmod>2021-12-20T13:37:37+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://xobbba.ru/signin?next=%2Ffacts%2F2%2Fupdate</loc>
+	<lastmod>2021-12-20T13:37:38+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://xobbba.ru/signin?next=%2Ffacts%2F2%2Fdel</loc>
+	<lastmod>2021-12-20T13:37:38+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://xobbba.ru/signin?next=%2Ffacts%2F1%2Fdel</loc>
+	<lastmod>2021-12-20T13:37:39+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://xobbba.ru/signin?next=%2Ffacts%2F1%2Fupdate</loc>
+	<lastmod>2021-12-20T13:37:39+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://xobbba.ru/signin?next=%2Fposts%2F1%2Fdel</loc>
+	<lastmod>2021-12-20T13:37:40+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://xobbba.ru/signin?next=%2Fposts%2F1%2Fupdate</loc>
+	<lastmod>2021-12-20T13:37:40+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+</urlset>

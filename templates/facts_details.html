@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block home %}
+{{ fact.title_fact }}
+{% endblock %}
+
+{% block body %}
+<div class="container unselectable">
+    <h1>{{ fact.title_fact }}</h1>
+    <div class="alert alert-info">
+        <p>{{ fact.text_fact }}</p>
+        <p><b>Дата публикации: {{ fact.date_fact.date() }}</b></p>
+        <a href="/facts/{{ fact.id_fact }}/del" class="btn btn-danger">Удалить</a>
+        <a href="/facts/{{ fact.id_fact }}/update" class="btn btn-success">Редактировать</a>
+    </div>
+</div>
+{% endblock %}

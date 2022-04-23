@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block home %}
+Факты
+{% endblock %}
+
+{% block body %}
+<div class="container">
+    <h1 style="color: white">Факты</h1>
+
+    {% if fact|length > 0 %}
+        {% for el in fact %}
+        <div class="alert alert-info">
+            <h2>{{ el.title_fact }}</h2>
+            <p>{{ el.intro_fact }}</p>
+            <p><b>Дата: {{ el.date_fact.date() }}</b></p>
+            <a href="/facts/{{ el.id_fact }}" class="btn btn-warning">Детальнее</a>
+        </div>
+        {% endfor %}
+    {% else %}
+    <p>Фактов пока нет :с</p>
+    {% endif %}
+</div>
+{% endblock %}
